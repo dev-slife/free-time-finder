@@ -1,0 +1,37 @@
+:root {
+    /* COLOR */
+    --primary-color: #e0e3e8;
+    --secondary-color: #b2b5bb;
+
+    --bkg-gradient: linear-gradient(#4473d0, #596a8b);
+
+
+    /* FONT */
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Mulish", sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  height: 100%;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+    font-family: var(--font-primary);
+    background: var(--bkg-gradient);
+    color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
