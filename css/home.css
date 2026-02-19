@@ -1,0 +1,39 @@
+/* general css */
+main {
+    text-align: center;
+}
+
+div {
+    padding: 2%;
+    margin: 2% 8% 0% 8%;
+    background-color: #2b53a4;
+    border: solid black 2px;
+}
+
+
+/* team_info class */
+.team_info ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.team_info li {
+    align-items: center;
+    margin: 1%
+}
+
+.team_info li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* research class */
+#flush_left {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    margin: 1%;
+}
