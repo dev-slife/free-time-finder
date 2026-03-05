@@ -1,4 +1,4 @@
-# time-enforcer
+# Free Time Finder
 
 ### Developers 🔨
 - [dev.slife](https://github.com/dev-slife)

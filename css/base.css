@@ -3,7 +3,7 @@
     --primary-color: #e0e3e8;
     --secondary-color: #b2b5bb;
 
-    --bkg-gradient: linear-gradient(#4473d0, #596a8b);
+    --bkg-gradient: linear-gradient(#4473d0, #7890bc);
 
 
     /* FONT */
@@ -38,6 +38,11 @@ body {
     color: var(--primary-color);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+footer {
+    margin: 2%;
+    font-size: 18px;
 }
 
 

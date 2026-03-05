@@ -3,7 +3,7 @@ main {
     text-align: center;
 }
 
-div {
+div div{
     padding: 2%;
     margin: 2% 8% 0% 8%;
     background-color: #2b53a4;
@@ -11,19 +11,19 @@ div {
 }
 
 
-/* team_info class */
-.team_info ul {
+/* team_info id */
+#team_info ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.team_info li {
+#team_info li {
     align-items: center;
     margin: 1%
 }
 
-.team_info li img {
+#team_info li img {
     display: block;
     margin-left: auto;
     margin-right: auto;
